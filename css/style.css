@@ -1,9 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
-    font-family: 'Open Sans', sans-serif;
 
 }
+.text_primary{
+    color: #FD6E0A;
+}
+.btn_primary{
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    /* font-style: normal; */
+    font-weight: 700;
+    padding: 15px 30px;
+    font-size: 20px;
+    /* line-height: 27px; */
+    border: 0;
+}
+/* header and navigation start */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-right: 70px;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+/* header and navigation start */
+
+/* banner start */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner_title{
+    font-weight: 700;
+    font-size: 85px;
+}
+.banner_sub_title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner_description{
+    /* font-weight: 400; */
+    font-size: 18px;
+    color: #757575;
+}
+/* banner end */
