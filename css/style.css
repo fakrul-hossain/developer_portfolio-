@@ -94,7 +94,7 @@ main{
 .section_title{
     font-size: 35px;
     font-weight: 700;
-    
+    text-align: center;
     margin-bottom: 30px;
     color: #181818;
 }
@@ -123,26 +123,34 @@ main{
 .my_skill{
     margin-top: 130px;
 }
+.my_skill_description{
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    padding: 0 150px;
+    margin-bottom: 50px;
+}
 .skill_container{
     display: flex;
     gap: 30px;
 }
 .skill{
-    justify-content: start;
+    padding: 30px;
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
 }
 .skill_title{
+    margin-top: 30px;
     font-weight: 700;
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
     color: #181818;
 }
 .skill_description{
     font-weight: 400;
     font-size: 16px;
-    line-height: 28px;
+    margin-top: 20px;
     color: #757575;
 }
 /* my skill end */
