@@ -196,5 +196,23 @@ section{
 .download_cv{
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 110px;
 }
 /* resume end */
+/* contact start */
+.contract{
+    display: flex;
+    background-color: #FFF8F3;
+    overflow: hidden;
+}
+.contract .contract_title{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.contract .contract_description{
+    color: #474747;
+    margin: 30px 0;
+}
+/* contact end */
