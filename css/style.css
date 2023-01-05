@@ -4,12 +4,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 body{
-
+    box-sizing: border-box;
 }
 .text_primary{
     color: #FD6E0A;
 }
 .btn_primary{
+    margin-right: 30px;
     background: #FD6E0A;
     border-radius: 5px;
     font-family: 'Open Sans';
@@ -18,6 +19,26 @@ body{
     font-size: 20px;
     border: 0;
     cursor: pointer;
+    transition: 0.5s;
+}
+.btn_primary:hover{
+    background-color: #FFF8F3;
+    transition: 0.5s;
+}
+.btn_secondary{
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    cursor: pointer;
+    /* border: navajowhite; */
+    border: 1px solid #FD6E0A;
+    transition: 0.5s;
+}
+.btn_secondary:hover{
+    background-color: #FD6E0A;
+    transition: 0.5s;
 }
 /* header and navigation start */
 .header{
@@ -199,6 +220,7 @@ section{
 /* resume end */
 /* contact start */
 .contract{
+    /* max-width: 1140px; */
     display: flex;
     background-color: #FFF8F3;
     gap: 100px;
@@ -212,15 +234,34 @@ section{
 }
 .contract .contract_description{
     color: #474747;
-    margin: 30px 0;
+    margin: 20px 0;
 }
-.contract input, textarea{
+.contract a{
+    padding: 0 5px;
+}
+.contract textarea{
     margin-bottom: 24px;
     border: 0;
-    width: 100%;
+    width: auto;
+    padding: 18px 30px;
+}
+.contract input{
+    margin-bottom: 24px;
+    border: 0;
+    width: 50%;
     padding: 18px 30px;
 }
 input{
-    height: 40px;
+    height: 30px;
 }
 /* contact end */
+/* footer start */
+.footer_text{
+    /* align-items: center; */
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+/* footer end */
