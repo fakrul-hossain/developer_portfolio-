@@ -75,7 +75,7 @@ nav ul li a{
 }
 /* banner end */
 /* main section start */
-main{
+.align{
     max-width: 1140px;
     margin: 0 auto;
 }
